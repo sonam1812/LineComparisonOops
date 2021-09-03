@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class LineComparisonOops {
 	public static void main(String[] args) {
+		
 //for line1 input
 		        Scanner sc = new Scanner(System.in);
 		        System.out.print("Enter x1 of line 1:");
@@ -51,7 +52,16 @@ public class LineComparisonOops {
 		         }else {
 		             System.out.println("2nd line is greater");
 		         }
+		    }
+		    
+		    	 public void equal(double length1, double length2) {
+			    	 if(length1 == length2) {
+			             System.out.println("both lines are equal");
+			         }else{
+			             System.out.println("compare again");
+			         
+			         }
 		     }
-	}
+		    }
 
 
